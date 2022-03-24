@@ -10,7 +10,7 @@
  
  ## Screenshots
  
- <img src="/Screenshot1.png" width="100%">.
+ <img src="/Screenshot-1.png" width="25%">.
 
  ## Video
  
