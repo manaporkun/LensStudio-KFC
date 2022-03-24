@@ -1,0 +1,987 @@
+{
+    "lens_id": "",
+    "document_id": "Ma5Leih20bVq_WDavkCz",
+    "original_document_id": "Ma5Leih20bVq_WDavkCz",
+    "version": "29",
+    "lastChanged": "1647966319677",
+    "preview": "icon.png",
+    "videoPreview": "preview.mp4",
+    "videoPreviewUpdateTime": "",
+    "isReadOnly": "false",
+    "isAutoSaved": "false",
+    "api_level": "public",
+    "public_api_user_data_access": "unrestricted",
+    "studioVersion": {
+        "createdWith": {
+            "type": "Public",
+            "major": "4",
+            "minor": "16",
+            "patch": "0",
+            "build": "0"
+        },
+        "lastSavedWith": {
+            "type": "Public",
+            "major": "4",
+            "minor": "16",
+            "patch": "0",
+            "build": "0"
+        }
+    },
+    "view": {
+        "ResourceUiComponent": {
+            "collapsedList": [
+                [
+                    [
+                        "Materials",
+                        "Image Default 2"
+                    ],
+                    [
+                        "Materials",
+                        "Image Default 3"
+                    ],
+                    [
+                        "Prefabs",
+                        "HamburgerPrefab"
+                    ],
+                    [
+                        "Scripts",
+                        "ObjectPrefab"
+                    ],
+                    [
+                        "Scripts",
+                        "ObjectSpawner"
+                    ],
+                    [
+                        "Textures",
+                        "Bucket"
+                    ],
+                    [
+                        "Textures",
+                        "hamburger"
+                    ]
+                ]
+            ]
+        },
+        "SceneTreeUiComponent": {
+            "collapsedList": [
+                [
+                    "1647961331150393:7840"
+                ]
+            ],
+            "selectionSetList": ""
+        },
+        "MetaInfoUIComponent": {
+            "icon_hash": "56814dbefc6c60009fe6066406087653",
+            "icon_path": "icon.png",
+            "hints": [
+                "lens_hint_smile"
+            ],
+            "lens": "KFC",
+            "applicability": "1",
+            "lens_descriptors": "",
+            "Spectacles2021UseAllowed": "false"
+        },
+        "PreviewUiComponent": {
+            "preview_descriptor": {
+                "is_capture": "0",
+                "camera_type": "2"
+            },
+            "show_snap_ui": "true",
+            "show_sponsored_ui": "false",
+            "preview_images_project_config": {
+                "back_preview_id": "bundle:Preview\/Images\/Beach.jpg",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Images\/Person 1.jpg",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/Images\/Pavement\/Pavement.jpg",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_videos_project_config": {
+                "back_preview_id": "bundle:Preview\/Videos\/Beach.webm",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/Videos\/Smile Person 1.webm",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "",
+                "spectacles_preview_is_favorite": "false"
+            },
+            "preview_ie_project_config": {
+                "back_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "back_preview_is_favorite": "false",
+                "front_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "front_preview_is_favorite": "false",
+                "spectacles_preview_id": "bundle:Preview\/InteractiveEnvironments\/Colorful Home",
+                "spectacles_preview_is_favorite": "false"
+            }
+        },
+        "InspectorUiComponent": {
+            "collapsedList": [
+                [
+                    "1647949377245493:26192",
+                    "1647960001809380:1123768",
+                    "1647960443245706:1145757",
+                    "1647960498123685:1153772",
+                    "1647960796093590:1176349",
+                    "1647961007623223:1204989"
+                ]
+            ]
+        },
+        "ObjectTracking3DUIComponent": {
+            "foldedOwnerSceneObjects": ""
+        },
+        "Material::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        },
+        "Script::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        },
+        "VFX::UiComponent": {
+            "active_graph_asset": "-1:-1"
+        }
+    },
+    "model": {
+        "IResourceManager": {
+            "list": [
+                {
+                    "resId": "1",
+                    "uid": "1:1",
+                    "name": "Camera Output",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "2",
+                    "uid": "2:2",
+                    "name": "Camera Input",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "12",
+                    "uid": "8675309:9035768",
+                    "name": "Physics Root World Settings Asset",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "13",
+                    "uid": "1647949180436501:3844",
+                    "name": "Files\/File8.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "14",
+                    "uid": "1647949202789355:3943",
+                    "name": "Files\/File12.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "15",
+                    "uid": "1647949202805027:3952",
+                    "name": "Files\/File13.js",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "16",
+                    "uid": "1647949442285799:34861",
+                    "name": "HamburgerPrefab",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "0"
+                },
+                {
+                    "resId": "18",
+                    "uid": "1647959096865939:830466",
+                    "name": "Files\/File17.png",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "21",
+                    "uid": "1647959263742545:863964",
+                    "name": "Files\/File27",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                },
+                {
+                    "resId": "22",
+                    "uid": "1647960038559193:1124613",
+                    "name": "Files\/File29",
+                    "sourceFilePath": "",
+                    "additionalProperties": "",
+                    "flags": "1"
+                }
+            ],
+            "MaterialUpdateManager": {
+                "unrecognizedMaterials": ""
+            }
+        },
+        "InspectorComponent": {
+            "Component": {
+                "EyeColorVisual": {
+                    "uidData": "",
+                    "generalData": ""
+                },
+                "FaceStretchVisual": {
+                    "uidsToFeatureNamesWithIntensity": ""
+                },
+                "ScreenTransform": {
+                    "uidData": [
+                        {
+                            "k": "1647949377245493:26192",
+                            "v": {
+                                "isBasicMode": "false",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "true"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1647950316543018:202275",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "false",
+                                    "attachLeft": "false",
+                                    "attachRight": "false",
+                                    "attachTop": "false"
+                                }
+                            }
+                        },
+                        {
+                            "k": "1647959312189090:867011",
+                            "v": {
+                                "isBasicMode": "true",
+                                "basicModeSetup": {
+                                    "fixWidth": "false",
+                                    "fixHeight": "false",
+                                    "attachBottom": "true",
+                                    "attachLeft": "true",
+                                    "attachRight": "true",
+                                    "attachTop": "false"
+                                }
+                            }
+                        }
+                    ],
+                    "generalData": ""
+                }
+            }
+        },
+        "RenderOrderComponent": {
+            "autoRenderOrder": {
+                "0": "1647949326192659:19251",
+                "1": "1647950287952951:201892",
+                "2": "1647959263972483:864029",
+                "3": "1647961007623078:1204988",
+                "4": "1647961007623223:1204989",
+                "5": "1647961007642493:1205015",
+                "6": "1647961055653066:1212663",
+                "7": "1647961331150393:7840",
+                "8": "1647961331150618:7841",
+                "9": "1647961343622706:11139",
+                "10": "1647961368742885:17110"
+            }
+        },
+        "LayerComponent": {
+            "nextLayerId": "3",
+            "showOrthographicLayer": "true",
+            "layersInfo": [
+                {
+                    "layerId": "0",
+                    "layerName": "Default Layer",
+                    "layerMask": "1",
+                    "colorCode": "20"
+                },
+                {
+                    "layerId": "1",
+                    "layerName": "Orthographic Layer",
+                    "layerMask": "1048576",
+                    "colorCode": "21"
+                }
+            ]
+        },
+        "IFileManager": {
+            "pathes": [
+                {
+                    "k": "8",
+                    "v": "Files\/File8.pvr"
+                },
+                {
+                    "k": "9",
+                    "v": "Files\/File9.png"
+                },
+                {
+                    "k": "10",
+                    "v": "Files\/File10.png"
+                },
+                {
+                    "k": "11",
+                    "v": "Files\/File11.pvr"
+                },
+                {
+                    "k": "12",
+                    "v": "Files\/File12.js"
+                },
+                {
+                    "k": "13",
+                    "v": "Files\/File13.js"
+                },
+                {
+                    "k": "14",
+                    "v": "Files\/File14.oprfb"
+                },
+                {
+                    "k": "15",
+                    "v": "Files\/File15.oprfb"
+                },
+                {
+                    "k": "17",
+                    "v": "Files\/File17.pvr"
+                },
+                {
+                    "k": "18",
+                    "v": "Files\/File18.png"
+                },
+                {
+                    "k": "19",
+                    "v": "Files\/File19.png"
+                },
+                {
+                    "k": "20",
+                    "v": "Files\/File20.pvr"
+                },
+                {
+                    "k": "27",
+                    "v": "Files\/File27"
+                },
+                {
+                    "k": "28",
+                    "v": "Files\/File28.lsmat"
+                },
+                {
+                    "k": "29",
+                    "v": "Files\/File29"
+                },
+                {
+                    "k": "30",
+                    "v": "Files\/File30.lsmat"
+                }
+            ]
+        },
+        "RemoteApi::ModelManager": {
+            "api_specs": ""
+        },
+        "WorldComponent": {
+            "sceneFile": "scene.scn",
+            "sceneType": "binaryScene"
+        }
+    },
+    "controller": {
+        "IResourceController": {
+            "public": {
+                "pathes": [
+                    {
+                        "k": "968",
+                        "v": "Textures"
+                    },
+                    {
+                        "k": "969",
+                        "v": "Prefabs"
+                    },
+                    {
+                        "k": "970",
+                        "v": "Scripts"
+                    },
+                    {
+                        "k": "971",
+                        "v": "Textures\/hamburger.png"
+                    },
+                    {
+                        "k": "972",
+                        "v": "Scripts\/ObjectPrefab.js"
+                    },
+                    {
+                        "k": "973",
+                        "v": "Scripts\/ObjectSpawner.js"
+                    },
+                    {
+                        "k": "974",
+                        "v": "Prefabs\/HamburgerPrefab.oprfb"
+                    },
+                    {
+                        "k": "979",
+                        "v": "Textures\/Bucket.png"
+                    },
+                    {
+                        "k": "980",
+                        "v": "Materials"
+                    },
+                    {
+                        "k": "983",
+                        "v": "Materials\/Image Default 2.lsmat"
+                    },
+                    {
+                        "k": "985",
+                        "v": "Materials\/Image Default 3.lsmat"
+                    }
+                ],
+                "hashes": [
+                    {
+                        "k": "1",
+                        "v": "671afbc1d6810060ccbaac866a91cfa1"
+                    },
+                    {
+                        "k": "2",
+                        "v": "8e599835d0d45c5879eafb1f474469cd"
+                    },
+                    {
+                        "k": "967",
+                        "v": "0cf0e87a54f33218fcf92a12d7f0ede2"
+                    },
+                    {
+                        "k": "971",
+                        "v": "9b7d2a0a0f8189a476518dc14e18eac0"
+                    },
+                    {
+                        "k": "972",
+                        "v": "505aa055526c00988233a7e11ddb919f"
+                    },
+                    {
+                        "k": "973",
+                        "v": "e76ae014103c1156f4fa5a78a7a46dbb"
+                    },
+                    {
+                        "k": "974",
+                        "v": "1d5fdadf0a8c8e65b09aed79eda4445d"
+                    },
+                    {
+                        "k": "978",
+                        "v": "2e24702712117db46c9a6236ba81caf1"
+                    },
+                    {
+                        "k": "979",
+                        "v": "7ca0f56344a485a2dea4836de2b171ce"
+                    },
+                    {
+                        "k": "981",
+                        "v": "df4c559b8fbdb8f8211460a25908691e"
+                    },
+                    {
+                        "k": "982",
+                        "v": "54b5e21104a4a7f86b3d510596fdc27e"
+                    },
+                    {
+                        "k": "983",
+                        "v": "227054399622f520fb23b203cf44bae0"
+                    },
+                    {
+                        "k": "984",
+                        "v": "54b5e21104a4a7f86b3d510596fdc27e"
+                    },
+                    {
+                        "k": "985",
+                        "v": "f7aa9adc25d2b20b1b52b86564d2e952"
+                    },
+                    {
+                        "k": "986",
+                        "v": "f43cb006e8678b042ca650115b0f1024"
+                    },
+                    {
+                        "k": "987",
+                        "v": "0cc7bae11c48d91982774a5d48b2f232"
+                    },
+                    {
+                        "k": "988",
+                        "v": "f5c153ae507539ef39f84ea9f0dac03f"
+                    },
+                    {
+                        "k": "989",
+                        "v": "329381b4c4db7157f981303f10104bac"
+                    },
+                    {
+                        "k": "990",
+                        "v": "f95379c73e96bbdbbb20730e5396ad66"
+                    }
+                ],
+                "publicState": {
+                    "tree": {
+                        "isFolder": "true",
+                        "lastModified": "2022-03-22T17:27:36",
+                        "name": "Public",
+                        "hash": "9ba25200258c38dfd3179958b0469d5b",
+                        "children": [
+                            {
+                                "isFolder": "false",
+                                "lastModified": "2022-03-14T22:22:54",
+                                "name": "folder.lock",
+                                "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                "children": ""
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-03-22T18:45:13",
+                                "name": "Materials",
+                                "hash": "7c7f4f6fe05e45325510eabb75e73b85",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T17:27:36",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T18:45:13",
+                                        "name": "Image Default 2.lsmat",
+                                        "hash": "3669f350fda5c935e9f9816b06eafaeb",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T18:45:13",
+                                        "name": "Image Default 3.lsmat",
+                                        "hash": "4f947be08cbb84b473bea29b43f8e338",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-03-22T15:04:30",
+                                "name": "Prefabs",
+                                "hash": "b357d1f84bdd28fc6fdf61f7fb5dafc5",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T14:39:26",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T15:04:30",
+                                        "name": "HamburgerPrefab.oprfb",
+                                        "hash": "1d5fdadf0a8c8e65b09aed79eda4445d",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-03-22T18:45:08",
+                                "name": "Scripts",
+                                "hash": "ea42fd823764b07bf73b1a1967f4e7f7",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T14:39:32",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T18:37:25",
+                                        "name": "ObjectPrefab.js",
+                                        "hash": "505aa055526c00988233a7e11ddb919f",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T18:33:58",
+                                        "name": "ObjectSpawner.js",
+                                        "hash": "e76ae014103c1156f4fa5a78a7a46dbb",
+                                        "children": ""
+                                    }
+                                ]
+                            },
+                            {
+                                "isFolder": "true",
+                                "lastModified": "2022-03-22T18:45:08",
+                                "name": "Textures",
+                                "hash": "d4d46cfcfc84382987b5d4852061b36c",
+                                "children": [
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2021-10-04T14:08:58",
+                                        "name": "Bucket.png",
+                                        "hash": "7ca0f56344a485a2dea4836de2b171ce",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-22T14:39:21",
+                                        "name": "folder.lock",
+                                        "hash": "d41d8cd98f00b204e9800998ecf8427e",
+                                        "children": ""
+                                    },
+                                    {
+                                        "isFolder": "false",
+                                        "lastModified": "2022-03-10T14:37:43",
+                                        "name": "hamburger.png",
+                                        "hash": "9b7d2a0a0f8189a476518dc14e18eac0",
+                                        "children": ""
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "complexResources": ""
+            },
+            "tree": {
+                "name": "",
+                "type": "0",
+                "subtype": "-1",
+                "resourceId": "-1",
+                "dependency": "0",
+                "hidden": "false",
+                "uid": "-1:-1",
+                "fileId": "18446744073709551615",
+                "originalId": "18446744073709551615",
+                "publicId": "18446744073709551615",
+                "source": "",
+                "additional": "",
+                "resources": [
+                    {
+                        "name": "Render Target",
+                        "type": "1",
+                        "subtype": "1",
+                        "resourceId": "1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "1:1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": {
+                            "resourceInfoExportKey": {
+                                "RenderTargetRole": "1"
+                            }
+                        }
+                    },
+                    {
+                        "name": "Device Camera Texture",
+                        "type": "1",
+                        "subtype": "3",
+                        "resourceId": "2",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "2:2",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Physics Root World Settings",
+                        "type": "36",
+                        "subtype": "1",
+                        "resourceId": "12",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "8675309:9035768",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "18446744073709551615",
+                        "source": "",
+                        "additional": ""
+                    },
+                    {
+                        "name": "Textures",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "968",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "hamburger",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "13",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1647949180436501:3844",
+                                "fileId": "8",
+                                "originalId": "9",
+                                "publicId": "971",
+                                "source": "C:\/Users\/Manap\/Documents\/Lens Projects\/KFC\/assets\/hamburger.png",
+                                "additional": {
+                                    "originHash": "9b7d2a0a0f8189a476518dc14e18eac0"
+                                }
+                            },
+                            {
+                                "name": "Bucket",
+                                "type": "1",
+                                "subtype": "9",
+                                "resourceId": "18",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1647959096865939:830466",
+                                "fileId": "17",
+                                "originalId": "18",
+                                "publicId": "979",
+                                "source": "C:\/Users\/Manap\/Documents\/Lens Projects\/KFC\/assets\/Bucket_KFCSandwichLogo (2) (1).png",
+                                "additional": {
+                                    "originHash": "7ca0f56344a485a2dea4836de2b171ce"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Prefabs",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "969",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "HamburgerPrefab",
+                                "type": "12",
+                                "subtype": "-1",
+                                "resourceId": "16",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1647949442285799:34861",
+                                "fileId": "14",
+                                "originalId": "15",
+                                "publicId": "974",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Scripts",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "970",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "ObjectPrefab",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "14",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1647949202789355:3943",
+                                "fileId": "12",
+                                "originalId": "18446744073709551615",
+                                "publicId": "972",
+                                "source": "C:\/Users\/Manap\/Desktop\/[Tutorial] MouthCatching1\/Public\/scripts\/ObjectPrefab.js",
+                                "additional": ""
+                            },
+                            {
+                                "name": "ObjectSpawner",
+                                "type": "4",
+                                "subtype": "0",
+                                "resourceId": "15",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1647949202805027:3952",
+                                "fileId": "13",
+                                "originalId": "18446744073709551615",
+                                "publicId": "973",
+                                "source": "C:\/Users\/Manap\/Desktop\/[Tutorial] MouthCatching1\/Public\/scripts\/ObjectSpawner.js",
+                                "additional": ""
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Materials",
+                        "type": "0",
+                        "subtype": "-1",
+                        "resourceId": "-1",
+                        "dependency": "0",
+                        "hidden": "false",
+                        "uid": "-1:-1",
+                        "fileId": "18446744073709551615",
+                        "originalId": "18446744073709551615",
+                        "publicId": "980",
+                        "source": "",
+                        "additional": "",
+                        "resources": [
+                            {
+                                "name": "Image Default 2",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "21",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1647959263742545:863964",
+                                "fileId": "27",
+                                "originalId": "28",
+                                "publicId": "983",
+                                "source": "",
+                                "additional": ""
+                            },
+                            {
+                                "name": "Image Default 3",
+                                "type": "2",
+                                "subtype": "1",
+                                "resourceId": "22",
+                                "dependency": "0",
+                                "hidden": "false",
+                                "uid": "1647960038559193:1124613",
+                                "fileId": "29",
+                                "originalId": "30",
+                                "publicId": "985",
+                                "source": "",
+                                "additional": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "InspectorController": {
+            "selection": ""
+        },
+        "EffectsController": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": "",
+            "5": "",
+            "6": "",
+            "7": "",
+            "8": "",
+            "10": "",
+            "11": "",
+            "12": "",
+            "13": "",
+            "14": "",
+            "15": "",
+            "16": "",
+            "17": "",
+            "18": "",
+            "19": "",
+            "20": "",
+            "22": "",
+            "23": "",
+            "24": "",
+            "25": "",
+            "26": "",
+            "27": "",
+            "28": "",
+            "29": "",
+            "30": "",
+            "31": "",
+            "32": ""
+        },
+        "ObjectPrefabController": {
+            "state": {
+                "objectToInfo": ""
+            },
+            "importInfo": ""
+        },
+        "Compression::IController": {
+            "new_compression_info": [
+                {
+                    "k": "1647949180436501:3844",
+                    "v": {
+                        "infos": {
+                            "originalSize": "133348",
+                            "compressedSize": "28712",
+                            "originalRAM": "374180",
+                            "compressedRAM": "47704",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "10",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "9b7d2a0a0f8189a476518dc14e18eac0",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "11"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "k": "1647959096865939:830466",
+                    "v": {
+                        "infos": {
+                            "originalSize": "4647355",
+                            "compressedSize": "858697",
+                            "originalRAM": "12731928",
+                            "compressedRAM": "1594112",
+                            "extension": "png",
+                            "settings": {
+                                "isCompressed": "true",
+                                "level": "2",
+                                "type": "1",
+                                "subtype": "9"
+                            }
+                        },
+                        "uncompressed_file": "19",
+                        "compressed_files": [
+                            {
+                                "k": {
+                                    "uncompressed_hash": "7ca0f56344a485a2dea4836de2b171ce",
+                                    "settings_hash": "2049"
+                                },
+                                "v": "20"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        "AssetLibController": {
+            "itemUidToID": ""
+        }
+    },
+    "templateName": "Empty Project",
+    "templateUrl": "Lens Studio version 4.16.0"
+}
